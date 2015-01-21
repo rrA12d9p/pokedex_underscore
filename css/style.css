@@ -1,0 +1,98 @@
+#logo {
+	margin: 40px 0;
+}
+
+div.preview {
+	position: fixed;
+	background: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: 20px;
+	top: 10px;
+	width: 340px;
+	height: 480px;
+	overflow: visible;
+	display: none;
+	box-shadow: 10px 10px 5px #888;
+}
+
+div.preview .info {
+	padding: 10px;
+	font-size: 1em;
+}
+
+div.preview p {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+}
+
+img.pokemon-avatar {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	margin: auto;
+	/*margin:10px auto 15px auto;*/
+	font-size: 12pt;
+	max-width: 70%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #3A5BA7;
+	text-align: center;
+	color: white;
+	font-size: 12pt;
+	padding: 4px;
+	white-space: nowrap;
+}
+
+table.tablesorter thead tr th:first-child {
+	background: none;
+}
+
+table.tablesorter thead tr .header {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	padding: 5px 20px;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	/*background-color: #FFF;*/
+	vertical-align: middle;
+}
+
+table.tablesorter tbody tr:nth-child(even) {
+	background: #EEE;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #FFCB05;
+	color: black;
+}
+table.tablesorter thead th:hover {
+	background-color: #FFCB05;
+	color: black;
+}
+table.tablesorter tbody tr:hover {
+	background-color: #FFCB05;
+}
+
+table.tablesorter td:first-child {
+	background: white;
+}

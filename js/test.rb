@@ -1,0 +1,3 @@
+people = Person.create([
+{name: },
+])
